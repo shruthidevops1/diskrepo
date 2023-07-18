@@ -1,7 +1,7 @@
 resource "azurerm_resource_group" "example" {
   name     = var.rgname
   location = var.loc
-tag = {createdby = "devopsteam"}
+tags = {createdby = "devopsteam"}
   }
 
 resource "azurerm_managed_disk" "example" {
